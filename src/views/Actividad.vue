@@ -22,413 +22,677 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Evaluar la comprensión de los principales conceptos relacionados con el enfoque DevOps y su aplicación en los procesos de desarrollo de <em>software</em>.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Cuál es el propósito principal del enfoque DevOps?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Separar las actividades de desarrollo y operaciones.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Promover la colaboración y la automatización durante el desarrollo de <em>software</em>.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Sustituir el uso de herramientas de desarrollo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Eliminar las pruebas de <em>software</em>.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Qué originó el surgimiento del enfoque DevOps?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto:
+                'La necesidad de reemplazar los lenguajes de programación.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'La creación de nuevos sistemas operativos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto:
+                'La necesidad de mejorar la colaboración entre los equipos de desarrollo y operaciones.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'El uso obligatorio de contenedores.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            '¿Cuál de los siguientes corresponde a un principio de DevOps?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
-              esCorrecta: false,
+              texto: 'Automatización.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Virtualización exclusiva.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Programación estructurada.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Diseño gráfico.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Cuál es uno de los beneficios de implementar DevOps?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Incrementar las tareas manuales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'Reducir la comunicación entre equipos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto: 'Disminuir la calidad del <em>software</em>.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
+              texto:
+                'Agilizar la entrega de nuevas versiones del <em>software</em>.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Cuál es el propósito del ciclo de vida del desarrollo de <em>software</em>?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+                'Organizar las actividades necesarias para desarrollar una aplicación.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Diseñar redes de computadores.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'Configurar servidores <em>web</em>.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Administrar bases de datos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Qué función cumplen los artefactos de <em>software</em>?',
+          imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Sustituir el código fuente.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto:
+                'Documentar y respaldar las diferentes etapas del desarrollo.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Ejecutar pruebas automáticas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Administrar redes de comunicación.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Cuál es una característica de los contenedores?',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto:
+                'Requieren un sistema operativo independiente para cada aplicación.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto:
+                'Permiten ejecutar aplicaciones con sus dependencias de forma aislada.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Solo funcionan en servidores físicos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Sustituyen las bases de datos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Qué beneficio aporta el uso de contenedores en DevOps?',
+          imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Incrementar el tiempo de despliegue.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Reducir la colaboración entre equipos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Facilitar la portabilidad de las aplicaciones entre diferentes entornos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar el uso de repositorios.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 9,
+          texto: '¿Qué significa la sigla CI?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Continuous Integration.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Continuous Infrastructure.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Code Integration.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Collaborative Integration.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Cuál es el objetivo principal de la entrega continua (CD)?',
+          imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Eliminar las pruebas automatizadas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Mantener el <em>software</em> preparado para su implementación.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir el control de versiones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Crear nuevas ramas del proyecto.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué herramienta se utiliza para gestionar versiones del código fuente?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Docker',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Jenkins',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Git',
               esCorrecta: true,
             },
+            {
+              id: 'd',
+              texto: 'Kubernetes',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Qué función cumple Git dentro de la integración continua?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Automatizar el despliegue del <em>software</em>.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Gestionar el historial de cambios del código fuente y facilitar la integración.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir los contenedores.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Administrar servidores.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cuál es una plataforma utilizada para alojar repositorios remotos?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'PostgreSQL',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Docker Hub',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'GitHub',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Apache',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            'En la estrategia GitFlow, ¿qué rama contiene la versión estable del proyecto?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'feature',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'develop',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'release',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'main',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Cuál es una buena práctica en la gestión del código fuente?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Realizar cambios directamente en la rama principal sin validación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Evitar documentar las modificaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Utilizar mensajes descriptivos en los <em>commits</em>.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar el historial de versiones.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 16,
+          texto: '¿Cuál es la función principal de Jenkins?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Diseñar interfaces gráficas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Automatizar procesos de integración y entrega continua.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Crear bases de datos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reemplazar Git.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué componente de Jenkins administra y coordina las ejecuciones automatizadas?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Agent',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Plugin',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '<em>Pipeline</em>',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Controller',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 18,
+          texto: '¿Qué representa un <em>pipeline</em> en Jenkins?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Una base de datos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Un flujo automatizado de etapas para ejecutar procesos de integración continua.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Un repositorio remoto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Un contenedor.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Cuál de las siguientes actividades hace parte de un proceso automatizado de CI/CD?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Construcción, pruebas y despliegue.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Diseño de logotipos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Administración financiera.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Elaboración de manuales impresos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 20,
+          texto: '¿Cuál es el propósito del monitoreo de procesos CI/CD?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eliminar los registros de ejecución.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Impedir la automatización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Supervisar las ejecuciones, identificar errores y promover la mejora continua.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituir las pruebas automatizadas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los principales conceptos relacionados con el enfoque DevOps, las herramientas y las prácticas utilizadas para automatizar y optimizar los procesos de desarrollo de <em>software</em>.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
     parrafo: {
       tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',

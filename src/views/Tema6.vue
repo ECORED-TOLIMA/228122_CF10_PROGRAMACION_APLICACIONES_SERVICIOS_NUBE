@@ -35,7 +35,7 @@
               p.mb-0 Ejecuta tareas repetitivas relacionadas con la construcción, las pruebas y el despliegue de aplicaciones.
           .row(numero="2" titulo="Integración con múltiples herramientas")
             .col-12.mb-4.mb-md-0
-              p.mb-0 permite trabajar con plataformas y tecnologías utilizadas durante el desarrollo de <em>software</em>.
+              p.mb-0 Permite trabajar con plataformas y tecnologías utilizadas durante el desarrollo de <em>software</em>.
           .row(numero="3" titulo="Extensibilidad mediante complementos")
             .col-12.mb-4.mb-md-0
               p.mb-0 Incorpora funcionalidades adicionales a través de una amplia colección de plugins.

@@ -13,17 +13,17 @@
           .row.mb-0
             .col-lg-2.d-none.d-lg-block
               figure
-                img(src='@/assets/curso/temas/t2/img02.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t2/img02.svg', alt='')
             .col-lg-10.col-12
               p.mb-0(data-aos="fade-down") Los procesos de desarrollo proporcionan una estructura de trabajo que facilita la coordinación entre los integrantes del equipo, la gestión de los recursos y el seguimiento de las actividades. Además, favorecen la definición de responsabilidades, la elaboración de productos intermedios y la aplicación de mecanismos de control que contribuyen a mejorar la calidad del <em>software</em>.
       .col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/temas/t2/img01.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t2/img01.jpg', alt='')
     p.mb-4(data-aos="fade-down") En el contexto de DevOps, estos procesos adquieren un enfoque colaborativo e integrado, donde las actividades de desarrollo y operación dejan de ejecutarse de forma independiente para convertirse en un flujo continuo apoyado por la automatización y la comunicación permanente entre los equipos. Este enfoque favorece la entrega frecuente de nuevas versiones, la detección temprana de errores y la mejora continua durante todo el ciclo de vida del <em>software</em>.
     .row.justify-content-center.align-items-center.mb-0
       .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/t2/img03.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t2/img03.svg', alt='')
       .col.col-lg-9.col-12.order-lg-2.order-2
         .cajon.cajon.C08.color-primario.px-4.py-1
           p.mb-0(data-aos="fade-down") Los procesos de desarrollo de <em>software</em> constituyen la base para implementar prácticas de integración continua, entrega continua y despliegue continuo, las cuales permiten optimizar el trabajo colaborativo y responder con mayor rapidez a las necesidades de las organizaciones y de los usuarios.
@@ -33,10 +33,10 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t2/img04.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t2/img04.svg', alt='')
       .col.col-lg-8.col-12.order-lg-1.order-2
         .cajon.cajon.C08.color-primario.px-4.py-4.mb-4
-          p.mb-0(data-aos="fade-down") El ciclo de vida del desarrollo de <em>software</em> (<em>software</em> Development Life Cycle - SDLC) es un modelo que organiza las actividades necesarias para planificar, diseñar, desarrollar, probar, implementar y mantener una aplicación informática. Su propósito es proporcionar una estructura que facilite la gestión del proyecto, optimice el uso de los recursos y garantice la calidad del producto final.
+          p.mb-0(data-aos="fade-down") El ciclo de vida del desarrollo de <em>software</em> (Software Development Life Cycle - SDLC) es un modelo que organiza las actividades necesarias para planificar, diseñar, desarrollar, probar, implementar y mantener una aplicación informática. Su propósito es proporcionar una estructura que facilite la gestión del proyecto, optimice el uso de los recursos y garantice la calidad del producto final.
         p.mb-4(data-aos="fade-down") La implementación de un ciclo de vida permite definir las actividades que deben ejecutarse en cada etapa, establecer responsabilidades y realizar el seguimiento del avance del proyecto. De esta manera, es posible reducir riesgos, controlar los cambios y asegurar que el <em>software</em> responda a los requisitos definidos por los usuarios y las organizaciones.
         p.mb-0(data-aos="fade-down") Aunque existen diferentes metodologías de desarrollo, la mayoría contempla un conjunto de etapas comunes que orientan la construcción de soluciones de <em>software</em>. Estas etapas son:
     .row.mb-4
@@ -45,49 +45,49 @@
           .row.align-items-center.bg02(data-aos="fade-down")
             .col-lg-4.d-none.d-lg-block.py-0.px-2
               figure(data-aos="zoom-in")
-                img(src="@/assets/curso/temas/t2/img05.png", alt="Imagen decorativa")
+                img(src="@/assets/curso/temas/t2/img05.png", alt="")
             .col-lg-8.px-0.py-4
               SlyderF.custom.color-acento-botones.px-lg-5.py-0.px-0(columnas="col-lg-6 col-xl-6")
                 .tarjeta.tarjeta--slyder.p-4.py-2
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-6
-                      img(src="@/assets/curso/temas/t2/img06.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/temas/t2/img06.svg", alt="").img100.m-auto
                   h4 Planificación
                   p Definición de los objetivos, el alcance, los recursos y el cronograma del proyecto.
                 .tarjeta.tarjeta--slyder.p-4.py-2
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-6
-                      img(src="@/assets/curso/temas/t2/img07.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/temas/t2/img07.svg", alt="").img100.m-auto
                   h4 Análisis de requisitos
                   p Identificación y documentación de las necesidades funcionales y no funcionales que debe cumplir el <em>software</em>.
                 .tarjeta.tarjeta--slyder.p-4.py-2
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-6
-                      img(src="@/assets/curso/temas/t2/img08.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/temas/t2/img08.svg", alt="").img100.m-auto
                   h4 Diseño
                   p Definición de la arquitectura, los componentes, la estructura de datos y la interfaz de la aplicación.
                 .tarjeta.tarjeta--slyder.p-4.py-2
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-6
-                      img(src="@/assets/curso/temas/t2/img09.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/temas/t2/img09.svg", alt="").img100.m-auto
                   h4 Desarrollo
                   p Construcción del <em>software</em> mediante la implementación del código fuente.
                 .tarjeta.tarjeta--slyder.p-4.py-2
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-6
-                      img(src="@/assets/curso/temas/t2/img10.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/temas/t2/img10.svg", alt="").img100.m-auto
                   h4 Pruebas
                   p Verificación del funcionamiento de la aplicación para identificar y corregir errores antes de su implementación.
                 .tarjeta.tarjeta--slyder.p-4.py-2
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-6
-                      img(src="@/assets/curso/temas/t2/img11.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/temas/t2/img11.svg", alt="").img100.m-auto
                   h4 Implementación
                   p Puesta en funcionamiento del <em>software</em> en el entorno de producción.
                 .tarjeta.tarjeta--slyder.p-4.py-2
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-6
-                      img(src="@/assets/curso/temas/t2/img12.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/temas/t2/img12.svg", alt="").img100.m-auto
                   h4 Mantenimiento
                   p Realización de correcciones, actualizaciones y mejoras posteriores a la implementación.
     p.mb-0(data-aos="fade-down") La aplicación ordenada de estas etapas contribuye al desarrollo de <em>software</em> con mayor calidad, facilita el trabajo colaborativo entre los equipos y proporciona una base para la implementación de prácticas DevOps orientadas a la integración y entrega continua.
@@ -97,7 +97,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t2/img13.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t2/img13.jpg', alt='')
       .col.col-lg-8.col-12.order-lg-1.order-2
         .cajon.cajon.C08.color-primario.px-4.py-3.mb-4
           p.mb-0(data-aos="fade-down") El proceso de desarrollo de <em>software</em> comprende un conjunto de actividades que permiten transformar los requisitos definidos en una solución informática funcional. Cada actividad responde a un propósito específico y se desarrolla de manera coordinada con las demás, favoreciendo la organización del proyecto, el control de las tareas y el aseguramiento de la calidad del <em>software</em>.
@@ -150,7 +150,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t2/img14.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t2/img14.jpg', alt='')
       .col.col-lg-7.col-12.order-lg-2.order-2
         .cajon.cajon.C08.color-primario.px-4.py-4.mb-4
           p.mb-0(data-aos="fade-down") El desarrollo de <em>software</em> requiere la participación de profesionales con diferentes conocimientos y responsabilidades, quienes trabajan de manera coordinada para planificar, construir, implementar y mantener las aplicaciones. Cada integrante del equipo aporta habilidades específicas que contribuyen al cumplimiento de los objetivos del proyecto y a la entrega de productos de calidad.
@@ -196,7 +196,7 @@
     .row.justify-content-center.align-items-center.mb-0
       .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/t2/img15.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t2/img15.svg', alt='')
       .col.col-lg-11.col-12.order-lg-2.order-2
         .cajon.cajon.C03.px-4.py-3
           p.mb-0(data-aos="fade-down") El desarrollo de <em>software</em> requiere la participación coordinada de diferentes profesionales. En DevOps, estos roles fortalecen el trabajo colaborativo, comparten responsabilidades y contribuyen conjuntamente al desarrollo, implementación y operación de aplicaciones de <em>software</em>.
@@ -220,14 +220,14 @@
           .row.mb-3
             .col-lg-2.d-none.d-lg-block
               figure
-                img(src='@/assets/curso/temas/t2/img24.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t2/img24.svg', alt='')
             .col-lg-10.col-12
               h4.mb-0(data-aos="fade-down") Ejemplo de utilización de artefactos de <em>software</em>
           p(data-aos="fade-down") Durante el desarrollo de una aplicación para la gestión de citas médicas, el equipo de trabajo utiliza diferentes artefactos en cada etapa del proyecto. Inicialmente, elabora un documento de requisitos para registrar las necesidades del sistema, como el agendamiento de citas y la consulta de historiales médicos. Posteriormente, desarrolla un modelo de diseño que define la arquitectura de la aplicación, las interfaces y la estructura de la base de datos.
           p.mb-0(data-aos="fade-down") Una vez aprobado el diseño, los desarrolladores construyen el código fuente de la aplicación y el equipo de calidad elabora los casos de prueba para verificar que las funcionalidades operen correctamente. Finalmente, antes de la entrega del sistema, se preparan el manual técnico, dirigido al personal encargado de la administración y el mantenimiento, y el manual de usuario, que orienta a los usuarios finales en la utilización de la aplicación.
       .col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/temas/t2/img23.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t2/img23.jpg', alt='')
     p.mb-0(data-aos="fade-down") Este ejemplo permite identificar que los artefactos de <em>software</em> se generan de manera progresiva durante el desarrollo de un proyecto y que cada uno cumple una función específica para documentar el proceso, facilitar el trabajo colaborativo y garantizar la calidad de la solución desarrollada.
     separador
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -235,12 +235,12 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t2/img25.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t2/img25.jpg', alt='')
       .col.col-lg-8.col-12.order-lg-1.order-2
         .row.align-items-center.mb-3
           .col-lg-auto.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/t2/img26.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/t2/img26.svg', alt='')
           .col-lg-10.col-12
             p.mb-0(data-aos="fade-down") El desarrollo de <em>software</em> requiere el apoyo de herramientas que facilitan la planificación, la construcción, las pruebas, la implementación y el mantenimiento de las aplicaciones. Estas herramientas permiten optimizar las actividades del equipo de trabajo, mejorar la productividad y favorecer la colaboración entre los diferentes participantes del proyecto.
         .cajon.cajon.C08.color-primario.px-4.py-3.mb-0

@@ -21,7 +21,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/t6/img02.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img02.svg', alt='')
       .col.col-lg-11.col-12.order-lg-2.order-2
         .cajon.cajon.C03.px-4.py-1
           p.mb-0(data-aos="fade-down") <b>Jenkins</b> es una herramienta de automatización de código abierto (<em>open source</em>) ampliamente utilizada para implementar procesos de integración continua (CI) y entrega continua (CD). Su función principal consiste en coordinar y ejecutar automáticamente diferentes tareas del ciclo de desarrollo de <em>software</em> cada vez que se detectan cambios en el código fuente.
@@ -47,7 +47,7 @@
               p.mb-0 Registra el estado de las ejecuciones y facilita el seguimiento de los resultados obtenidos.
       .col-lg-4.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/t6/img03.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img03.png', alt='')
     p.mb-4(data-aos="fade-down") La utilización de Jenkins contribuye a mejorar la calidad del <em>software</em>, reducir los tiempos de entrega y fortalecer la automatización de los procesos de integración y despliegue continuo.
     .row.justify-content-center.align-items-stretch.mb-4.g-0
       .col-lg-7.col-12.order-lg-2.order-2
@@ -55,19 +55,19 @@
           .row.mb-3
             .col-lg-2.d-none.d-lg-block
               figure
-                img(src='@/assets/curso/temas/t6/img05.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t6/img05.svg', alt='')
             .col-lg-10.col-12
               h4.mb-0(data-aos="fade-down") Ejemplo de utilización de Jenkins
           p.mb-0(data-aos="fade-down") Un desarrollador realiza cambios en el código fuente de una aplicación y los publica en el repositorio remoto del proyecto. Jenkins detecta automáticamente la actualización, inicia la compilación del <em>software</em>, ejecuta las pruebas configuradas y, si todas las validaciones son satisfactorias, deja preparada la nueva versión para su implementación en el entorno correspondiente.
       .col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/temas/t6/img04.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img04.jpg', alt='')
     p.mb-4(data-aos="fade-down") Este ejemplo permite identificar que Jenkins automatiza diferentes actividades del ciclo de desarrollo de <em>software</em>, reduciendo la intervención manual y favoreciendo la integración y la entrega continua de aplicaciones.
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12.col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 8.
-          span Cultura de colaboración y automatización en DevOps
+          span Jenkins como herramienta de automatización en un flujo DevOps
       .row.justify-content-center
         .col-12.col-lg-10
           figure.desktop
@@ -84,7 +84,7 @@
               p Como complemento al proceso de aprendizaje, se recomienda consultar la documentación oficial de Jenkins, donde se encuentran disponibles guías, tutoriales y ejemplos relacionados con la automatización de procesos de integración y entrega continua.
             .col.col-lg-auto.d-none.d-lg-block.mb-4
               figure
-                img(src='@/assets/curso/temas/t6/img08.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t6/img08.svg', alt='')
             .row.mb-0
               .col.col-lg-6.col-12
                 a.anexo.mb-4.mb-lg-0(href="https://www.jenkins.io/" target="_blank")
@@ -104,7 +104,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t6/img09.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img09.jpg', alt='')
       .col.col-lg-7.col-12.order-lg-2.order-2
         p.mb-4(data-aos="fade-down") Jenkins está diseñado para automatizar procesos relacionados con el desarrollo de <em>software</em> mediante una arquitectura flexible que permite distribuir tareas entre diferentes equipos y entornos de ejecución. Esta organización facilita la ejecución de procesos de integración continua y entrega continua, optimizando el uso de los recursos disponibles y mejorando el rendimiento de las tareas automatizadas.
         .cajon.cajon.C08.color-primario.px-4.py-2.mb-3
@@ -157,13 +157,13 @@
           .row.mb-3
             .col-lg-2.d-none.d-lg-block
               figure
-                img(src='@/assets/curso/temas/t6/img13.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t6/img13.svg', alt='')
             .col-lg-10.col-12
               h4.mb-0(data-aos="fade-down") Ejemplo de funcionamiento
           p.mb-0(data-aos="fade-down") Una organización desarrolla varias aplicaciones de <em>software</em> de manera simultánea. El <b>Controller</b> de Jenkins administra los procesos de automatización y distribuye las tareas entre diferentes <b>Agents</b>. Mientras un agente ejecuta la compilación de una aplicación, otro realiza pruebas automatizadas y un tercero prepara el despliegue de una nueva versión. Gracias a esta distribución, los procesos se ejecutan de manera paralela, optimizando el tiempo y los recursos disponibles.
       .col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/temas/t6/img12.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img12.jpg', alt='')
     p.mb-0(data-aos="fade-down") Este ejemplo permite identificar cómo la arquitectura de Jenkins distribuye las tareas entre sus componentes para automatizar de forma eficiente diferentes actividades del proceso de desarrollo.
     separador
     #t_6_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -171,12 +171,12 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t6/img14.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img14.jpg', alt='')
       .col.col-lg-8.col-12.order-lg-2.order-2
         .row.mb-3
           .col-lg-auto.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/t6/img15.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/t6/img15.svg', alt='')
           .col-lg-10.col-12
             p.mb-0(data-aos="fade-down") Los procesos de integración continua requieren una secuencia organizada de actividades que permitan validar automáticamente los cambios realizados al código fuente antes de incorporarlos a una nueva versión del <em>software</em>. En Jenkins, esta secuencia se implementa mediante los <em>pipelines</em>, los cuales describen las etapas que deben ejecutarse durante el proceso de automatización.
         .cajon.cajon.C08.color-primario.px-4.py-3.mb-4
@@ -223,7 +223,7 @@
       .col.col-12.col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 10.
-          span Etapas generales de un pipeline de integración continua
+          span Etapas generales de un <em>pipeline</em> de integración continua
       .row.justify-content-center
         .col-12.col-lg-10
           figure.desktop
@@ -234,7 +234,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/t6/img23.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img23.svg', alt='')
       .col.col-lg-9.col-12.order-lg-2.order-2
         .cajon.cajon.C03.px-4.py-3
           p.mb-0(data-aos="fade-down") Aunque la configuración de un <em>pipeline</em> puede variar según las necesidades del proyecto, Jenkins utiliza con frecuencia un archivo denominado Jenkinsfile, donde se definen las etapas del proceso de automatización.
@@ -285,7 +285,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t6/img25.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img25.jpg', alt='')
       .col.col-lg-7.col-12.order-lg-1.order-2
         p.mb-4(data-aos="fade-down") La automatización de procesos permite ejecutar de forma organizada y repetitiva las diferentes actividades necesarias para construir, validar e implementar una aplicación de <em>software</em>. En el enfoque DevOps, esta automatización reduce la intervención manual, disminuye la posibilidad de errores y acelera la entrega de nuevas versiones del producto.
         .cajon.cajon.C08.color-primario.px-4.py-3.mb-3
@@ -311,7 +311,7 @@
           p.mb-0(data-aos="fade-down") Un desarrollador publica una nueva versión del código fuente en el repositorio del proyecto. Automáticamente, Jenkins inicia el proceso de construcción de la aplicación, ejecuta las pruebas configuradas y, si todas las validaciones son satisfactorias, despliega la nueva versión en el entorno de pruebas. Este proceso se realiza sin intervención manual, reduciendo el tiempo necesario para validar y distribuir el <em>software</em>.
       .col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/temas/t6/img28.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img28.jpg', alt='')
     p.mb-4(data-aos="fade-down") Este ejemplo permite identificar cómo la automatización de procesos fortalece la integración continua, mejora la calidad del <em>software</em> y agiliza la entrega de nuevas versiones. La implementación de estas prácticas genera beneficios que impactan positivamente el desarrollo de <em>software</em>, favoreciendo la eficiencia, la calidad y la confiabilidad de los procesos. A continuación, se presentan algunos de los principales beneficios de la automatización de procesos de construcción, pruebas y despliegue.
     .row.justify-content-center.mb-0(data-aos="flip-up")
       .col.col-12
@@ -347,7 +347,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t6/img29.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img29.svg', alt='')
       .col.col-lg-7.col-12.order-lg-1.order-2
         .cajon.cajon.C08.color-primario.px-4.py-3.mb-3
           p.mb-0(data-aos="fade-down") El monitoreo consiste en supervisar el estado de las ejecuciones automatizadas, verificando si las tareas programadas se completan correctamente o si presentan errores que requieran atención. Por su parte, la gestión comprende el análisis de los resultados obtenidos, la administración de las ejecuciones y la implementación de acciones que permitan optimizar el funcionamiento de los procesos CI/CD.
@@ -376,7 +376,7 @@
               p.mb-0 Facilita la evaluación del comportamiento de los procesos automatizados a lo largo del tiempo.
       .col-lg-6.order-lg-1.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/t6/img30.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img30.jpg', alt='')
     p.mb-4(data-aos="fade-down") La aplicación de estas actividades contribuye a mantener la estabilidad de los procesos CI/CD y favorece la mejora continua durante el desarrollo de <em>software</em>.
     .row.justify-content-center.align-items-stretch.mb-4.g-0
       .col-lg-5.col-12.order-lg-1.order-2
@@ -385,7 +385,7 @@
           p.mb-0(data-aos="fade-down") Durante la ejecución automática de un <em>pipeline</em>, Jenkins detecta que una de las pruebas de integración no se completó correctamente. El equipo de desarrollo consulta los registros de ejecución, identifica la causa del problema y realiza las correcciones necesarias en el código fuente. Posteriormente, el <em>pipeline</em> se ejecuta nuevamente, verificando que las modificaciones solucionaron el inconveniente y permitiendo continuar con el proceso de despliegue.
       .col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/temas/t6/img31.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img31.jpg', alt='')
     p(data-aos="fade-down") Este ejemplo permite identificar que el monitoreo y la gestión de procesos CI/CD no solo permiten detectar errores durante la automatización, sino también implementar acciones de mejora que fortalecen la calidad y confiabilidad del desarrollo de <em>software</em>.
     p.mb-4(data-aos="fade-down") La implementación de actividades de monitoreo y gestión aporta beneficios que permiten mantener la estabilidad de los procesos automatizados y mejorar continuamente su desempeño.
     .row.justify-content-center.mb-4(data-aos="flip-up")

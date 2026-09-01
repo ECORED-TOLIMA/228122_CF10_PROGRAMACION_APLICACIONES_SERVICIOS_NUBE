@@ -24,7 +24,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t1/img02.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t1/img02.jpg', alt='')
       .col.col-lg-8.col-12.order-lg-1.order-2
         .cajon.cajon.C08.color-primario.px-4.py-3.mb-3
           p.mb-0(data-aos="fade-down") Antes de la adopción de DevOps, los equipos de desarrollo y los equipos de operaciones trabajaban de forma independiente. Mientras los desarrolladores se enfocaban en crear nuevas funcionalidades para el <em>software</em>, el personal de operaciones era responsable de implementarlo, administrarlo y garantizar su disponibilidad. Esta separación generaba dificultades de comunicación, retrasos en las entregas, errores durante los despliegues y una limitada capacidad para responder a los cambios del entorno.
@@ -34,7 +34,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/t1/img03.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t1/img03.svg', alt='')
       .col.col-lg-11.col-12.order-lg-2.order-2
         .cajon.cajon.C03.px-4.py-1
           p.mb-0(data-aos="fade-down") En la actualidad, DevOps constituye una práctica ampliamente adoptada por organizaciones de diferentes sectores, ya que favorece ciclos de desarrollo más ágiles, mejora la calidad del <em>software</em> y fortalece la capacidad de responder de manera oportuna a las necesidades de los usuarios y del negocio.
@@ -75,7 +75,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/t1/img08.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t1/img08.svg', alt='')
       .col.col-lg-11.col-12.order-lg-2.order-2
         .cajon.cajon.C03.px-4.py-1
           p.mb-0(data-aos="fade-down") En este contexto, desarrolladores, personal de operaciones, especialistas en calidad y demás integrantes del equipo trabajan de manera conjunta para planificar, desarrollar, probar, implementar y monitorear las soluciones de <em>software</em>. Esta colaboración permite identificar y resolver inconvenientes de forma temprana, mejorar la calidad de los productos y responder con mayor rapidez a las necesidades de los usuarios.
@@ -162,7 +162,7 @@
               p.mb-0 Las prácticas de monitoreo y mejora continua contribuyen a mantener aplicaciones más estables y confiables.
       .col-lg-6.order-lg-1.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/t1/img17.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t1/img17.jpg', alt='')
     p.mb-4(data-aos="fade-down") La implementación de DevOps no depende únicamente del uso de herramientas tecnológicas, sino también de la adopción de una cultura organizacional basada en la colaboración, la automatización y la mejora continua. La integración de estos elementos permite desarrollar soluciones de <em>software</em> con mayor calidad, optimizar los procesos de trabajo y generar valor para las organizaciones.
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
@@ -197,7 +197,7 @@
     .row.justify-content-center.align-items-center.mb-0
       .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/t1/img18.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t1/img18.svg', alt='')
       .col.col-lg-9.col-12.order-lg-2.order-2
         .cajon.cajon.C03.px-4.py-1
           p.mb-0(data-aos="fade-down") La información presentada permite identificar que la implementación de DevOps genera beneficios tanto para los equipos de trabajo como para las organizaciones, al favorecer procesos de desarrollo más ágiles, colaborativos y orientados a la mejora continua.

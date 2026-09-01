@@ -11,7 +11,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/intro/img01.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/intro/img01.svg', alt='')
       .col.col-lg-8.col-12.order-lg-2.order-2
         .cajon.cajon.C08.color-primario.px-4.py-3.mb-3
           p.mb-0(data-aos="fade-down") Este componente formativo presenta los fundamentos de DevOps, los procesos de desarrollo de <em>software</em> y el papel de los contenedores como tecnología para la creación de entornos consistentes y escalables. Asimismo, aborda los conceptos de integración, entrega y despliegue continuo (CI/CD), destacando su contribución a la automatización de las actividades de construcción, prueba y publicación de aplicaciones.

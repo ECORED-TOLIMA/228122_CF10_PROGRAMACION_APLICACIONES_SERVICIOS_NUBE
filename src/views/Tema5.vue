@@ -9,12 +9,12 @@
     .row.justify-content-center.mb-0
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t5/img01.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t5/img01.jpg', alt='')
       .col.col-lg-8.col-12.order-lg-2.order-2
         .row.mb-3
           .col-lg-auto.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/t5/img02.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/t5/img02.svg', alt='')
           .col-lg-10.col-12
             p.mb-0(data-aos="fade-down") El desarrollo de <em>software</em> implica la realización constante de cambios sobre el código fuente, ya sea para incorporar nuevas funcionalidades, corregir errores o mejorar el rendimiento de las aplicaciones. Para administrar estas modificaciones de manera organizada y facilitar el trabajo colaborativo, se utilizan sistemas de control de versiones que permiten registrar la evolución del proyecto y mantener un historial de los cambios realizados.
         .cajon.cajon.C08.color-primario.px-4.py-3.mb-4
@@ -33,7 +33,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/t5/img04.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t5/img04.svg', alt='')
       .col.col-lg-9.col-12.order-lg-2.order-2
         .cajon.cajon.C03.px-4.py-1
           p.mb-0(data-aos="fade-down") La utilización de sistemas de control de versiones favorece el trabajo colaborativo, facilita la integración de cambios realizados por diferentes desarrolladores y reduce el riesgo de pérdida de información. Además, proporciona trazabilidad sobre la evolución del proyecto y permite mantener un registro organizado del desarrollo de las aplicaciones.
@@ -64,7 +64,7 @@
             li
               .lista-ol--cuadro__vineta
                 span.text-bold 5
-              p.mb-0 Facilitar la recuperación del código, en caso de errores, pérdidas de información o necesidad de volver a una versión anterior.
+              p.mb-0 Facilitar la recuperación del código en caso de errores, pérdidas de información o necesidad de volver a una versión anterior.
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12.col-lg-10
         .titulo-sexto.color-acento-contenido
@@ -85,7 +85,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t5/img07.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t5/img07.jpg', alt='')
       .col.col-lg-7.col-12.order-lg-2.order-2
         .cajon.cajon.C08.color-primario.px-4.py-4.mb-4
           p.mb-0(data-aos="fade-down") En un entorno de integración continua, Git actúa como el punto de partida del proceso automatizado. Cada vez que un desarrollador incorpora cambios al repositorio, estos pueden activar procesos de compilación, ejecución de pruebas y validación del <em>software</em> mediante herramientas de automatización. De esta manera, es posible identificar errores de forma temprana y garantizar que el código integrado cumpla con los criterios de calidad establecidos.
@@ -110,7 +110,7 @@
               p.mb-0 Posibilita la ejecución automática de procesos de construcción, pruebas e integración cuando se incorporan cambios al repositorio.
       .col-lg-4.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/t5/img08.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t5/img08.png', alt='')
     p.mb-4(data-aos="fade-down") Como ejemplo, algunos de los comandos básicos utilizados para registrar cambios en Git son los siguientes:
     .row.justify-content-center
       .col-xl-4.col-lg-4.col-md-10.col-12.mb-xl-0
@@ -118,7 +118,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/t5/img09.png", alt="Imagen decorativa")
+              img(src="@/assets/curso/temas/t5/img09.png", alt="")
           .crd_hover_txt--body
             h5.t1.mb-3 git add
             h5.t2.mb-2 git add
@@ -128,7 +128,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/t5/img10.png", alt="Imagen decorativa")
+              img(src="@/assets/curso/temas/t5/img10.png", alt="")
           .crd_hover_txt--body
             h5.t1.mb-3 git commit
             h5.t2.mb-2 git commit
@@ -138,7 +138,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/t5/img11.png", alt="Imagen decorativa")
+              img(src="@/assets/curso/temas/t5/img11.png", alt="")
           .crd_hover_txt--body
             h5.t1.mb-3 git push
             h5.t2.mb-2 git push
@@ -150,13 +150,13 @@
           .row.mb-3
             .col-lg-2.d-none.d-lg-block
               figure
-                img(src='@/assets/curso/temas/t5/img13.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t5/img13.svg', alt='')
             .col-lg-10.col-12
               h4.mb-0(data-aos="fade-down") Ejemplo de integración entre Git y CI 
           p.mb-0(data-aos="fade-down") Un desarrollador realiza modificaciones en el código fuente de una aplicación y registra los cambios mediante un git commit. Posteriormente, utiliza git push para enviar la nueva versión al repositorio remoto. A partir de esta acción, una herramienta de integración continua inicia automáticamente la compilación de la aplicación y la ejecución de las pruebas definidas para verificar que los cambios puedan integrarse correctamente al proyecto.
       .col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/temas/t5/img12.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t5/img12.jpg', alt='')
     p.mb-4(data-aos="fade-down") Este ejemplo permite identificar que Git no solo permite gestionar versiones del código fuente, sino que también actúa como el mecanismo que desencadena los procesos automatizados de integración continua dentro del enfoque DevOps.
     .row.justify-content-center.mb-0
       .col.col-12
@@ -177,12 +177,12 @@
       h2 5.3 Repositorios remotos con GitHub y GitLab
     p.mb-4(data-aos="fade-down") El desarrollo de aplicaciones de <em>software</em> suele realizarse de manera colaborativa, involucrando equipos de trabajo que participan en diferentes etapas del proyecto. Para facilitar esta colaboración, resulta necesario disponer de un espacio centralizado donde se almacene el código fuente y se registren los cambios realizados por cada integrante del equipo. En este contexto, los repositorios remotos constituyen una herramienta fundamental para la gestión de proyectos de <em>software</em>.
     figure.mb-4
-      img(src='@/assets/curso/temas/t5/img15.png', alt='Imagen decorativa')
+      img(src='@/assets/curso/temas/t5/img15.png', alt='')
     p.mb-4(data-aos="fade-down") Un repositorio remoto es un espacio de almacenamiento ubicado en un servidor al que pueden acceder los desarrolladores autorizados mediante una conexión a Internet. A diferencia del repositorio local, que se encuentra en el equipo de cada desarrollador, el repositorio remoto centraliza la información del proyecto y permite compartir, sincronizar y administrar las diferentes versiones del código fuente.
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t5/img16.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t5/img16.svg', alt='')
       .col.col-lg-7.col-12.order-lg-2.order-2
         .cajon.cajon.C08.color-primario.px-4.py-3.mb-4
           p.mb-0(data-aos="fade-down") Las plataformas GitHub y GitLab son dos de las soluciones más utilizadas para alojar repositorios remotos basados en Git. Además de almacenar el código fuente, estas plataformas proporcionan herramientas que facilitan el trabajo colaborativo, la administración de proyectos, la revisión de cambios y la integración con procesos de automatización propios del enfoque DevOps.
@@ -193,43 +193,43 @@
           .row.align-items-center.bg02(data-aos="fade-down")
             .col-lg-4.d-none.d-lg-block.py-0.px-2
               figure(data-aos="zoom-in")
-                img(src="@/assets/curso/temas/t5/img17.png", alt="Imagen decorativa")
+                img(src="@/assets/curso/temas/t5/img17.png", alt="")
             .col-lg-8.px-0.py-4
               SlyderF.custom.color-acento-botones.px-lg-5.py-0.px-0(columnas="col-lg-6 col-xl-6")
                 .tarjeta.tarjeta--slyder.p-4.py-2
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-6
-                      img(src="@/assets/curso/temas/t5/img18.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/temas/t5/img18.svg", alt="").img100.m-auto
                   h4 Creación del repositorio
                   p Se crea un repositorio remoto en una plataforma como GitHub o GitLab para almacenar el proyecto.
                 .tarjeta.tarjeta--slyder.p-4.py-2
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-6
-                      img(src="@/assets/curso/temas/t5/img19.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/temas/t5/img19.svg", alt="").img100.m-auto
                   h4 Clonación del repositorio
                   p Cada desarrollador obtiene una copia del proyecto en su equipo mediante Git.
                 .tarjeta.tarjeta--slyder.p-4.py-2
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-6
-                      img(src="@/assets/curso/temas/t5/img20.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/temas/t5/img20.svg", alt="").img100.m-auto
                   h4 Desarrollo de funcionalidades
                   p Cada integrante realiza modificaciones o incorpora nuevas características en su repositorio local.
                 .tarjeta.tarjeta--slyder.p-4.py-2
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-6
-                      img(src="@/assets/curso/temas/t5/img21.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/temas/t5/img21.svg", alt="").img100.m-auto
                   h4 Registro de cambios
                   p Las modificaciones se guardan mediante confirmaciones (<em>commits</em>), conservando el historial de versiones.
                 .tarjeta.tarjeta--slyder.p-4.py-2
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-6
-                      img(src="@/assets/curso/temas/t5/img22.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/temas/t5/img22.svg", alt="").img100.m-auto
                   h4 Publicación de cambios
                   p Los cambios se envían al repositorio remoto para que estén disponibles para los demás integrantes del equipo.
                 .tarjeta.tarjeta--slyder.p-4.py-2
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-6
-                      img(src="@/assets/curso/temas/t5/img23.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/temas/t5/img23.svg", alt="").img100.m-auto
                   h4 Integración de versiones
                   p Los cambios son revisados e incorporados al proyecto principal, manteniendo una única versión actualizada del código.
     p.mb-4(data-aos="fade-down") A continuación, se presenta el funcionamiento general de un repositorio remoto durante el desarrollo colaborativo de <em>software</em>.
@@ -317,13 +317,13 @@
           .row.mb-3
             .col-lg-2.d-none.d-lg-block
               figure
-                img(src='@/assets/curso/temas/t5/img27.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t5/img27.svg', alt='')
             .col-lg-10.col-12
               h4.mb-0(data-aos="fade-down") Ejemplo de utilización de un repositorio remoto
           p.mb-0(data-aos="fade-down") Un equipo desarrolla una aplicación para la gestión de inventarios utilizando un repositorio remoto alojado en GitHub. Cada desarrollador crea una copia local del proyecto y trabaja en nuevas funcionalidades de manera independiente. Una vez finalizadas las modificaciones, registra los cambios mediante Git y los publica en el repositorio remoto. Posteriormente, el equipo revisa las contribuciones y las integra al proyecto principal, garantizando que todos los integrantes trabajen sobre una versión actualizada del código fuente.
       .col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/temas/t5/img26.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t5/img26.jpg', alt='')
     p.mb-4(data-aos="fade-down") Este ejemplo permite identificar que los repositorios remotos facilitan el trabajo colaborativo, centralizan la gestión del código fuente y permiten mantener un historial organizado de las diferentes versiones del proyecto.
     .row.bg03.justify-content-center.align-items-center.px-3.mb-0
       .col.col-lg-10.col-12
@@ -333,7 +333,7 @@
               p Como complemento al proceso de aprendizaje, se recomienda consultar los recursos oficiales de GitHub y GitLab, donde se encuentran disponibles guías, tutoriales y documentación sobre la creación de repositorios, la colaboración entre desarrolladores y la administración de proyectos mediante Git.
             .col.col-lg-auto.d-none.d-lg-block.mb-4
               figure
-                img(src='@/assets/curso/temas/t5/img28.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t5/img28.svg', alt='')
             .row.mb-0
               .col.col-lg-6.col-12
                 a.anexo.mb-4.mb-lg-0(href="https://github.com/" target="_blank")
@@ -362,7 +362,7 @@
     separador
     #t_5_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 5.4 Estrategia de ramificación GitFlow
-    p.mb-4(data-aos="fade-down") Durante el desarrollo de una aplicación es común que varios integrantes del equipo trabajen al mismo tiempo en nuevas funcionalidades, correcciones de errores y mejoras del sistema. Si todas estas modificaciones se realizaran directamente sobre la versión principal del proyecto, aumentaría el riesgo de generar conflictos y afectar el funcionamiento de la aplicación.
+    p.mb-4(data-aos="fade-down") Durante el desarrollo de una aplicación, es común que varios integrantes del equipo trabajen al mismo tiempo en nuevas funcionalidades, correcciones de errores y mejoras del sistema. Si todas estas modificaciones se realizaran directamente sobre la versión principal del proyecto, aumentaría el riesgo de generar conflictos y afectar el funcionamiento de la aplicación.
     .bloque-texto-g.cajon.C09.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/temas/t5/img29.jpg')})`}"
@@ -404,9 +404,9 @@
           .row.mb-3
             .col-lg-2.d-none.d-lg-block
               figure
-                img(src='@/assets/curso/temas/t5/img31.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t5/img31.svg', alt='')
             .col-lg-10.col-12
-              p.mb-0(data-aos="fade-down") Supóngase que un equipo desarrolla una aplicación para la gestión de inventarios. Inicialmente existe una versión estable del sistema, la cual se encuentra almacenada en la rama main.
+              p.mb-0(data-aos="fade-down") Supóngase que un equipo desarrolla una aplicación para la gestión de inventarios. Inicialmente, existe una versión estable del sistema, la cual se encuentra almacenada en la rama main.
           p.mb-4(data-aos="fade-down") Cuando el equipo necesita incorporar una nueva funcionalidad, como el registro de proveedores, no modifica directamente la rama main. En su lugar, crea una rama feature, donde desarrolla y prueba la nueva funcionalidad de manera independiente.
           .cajon.cajon.C13.p-4.mb-4
             p Una vez finalizado el desarrollo, los cambios se integran en la rama develop, que reúne todas las funcionalidades que harán parte de la siguiente versión del sistema.
@@ -415,7 +415,7 @@
           p.mb-0(data-aos="fade-down") Si posteriormente se detecta un error crítico en producción, se crea una rama hotfix a partir de main, se corrige el problema y la solución se incorpora nuevamente tanto a main como a develop, garantizando que la corrección también forme parte de las futuras versiones del <em>software</em>.
       .col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/temas/t5/img30.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t5/img30.jpg', alt='')
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
         .titulo-sexto.color-acento-contenido
@@ -454,7 +454,7 @@
       h2 5.5 Buenas prácticas en la gestión de código fuente
     p.mb-4(data-aos="fade-down") La gestión del código fuente no solo depende del uso de herramientas como Git o de plataformas para alojar repositorios remotos. También requiere la aplicación de buenas prácticas que favorezcan la organización del proyecto, faciliten el trabajo colaborativo y contribuyan a mantener la calidad del <em>software</em> durante todo su ciclo de desarrollo.
     figure.mb-4
-      img(src='@/assets/curso/temas/t5/img33.png', alt='Imagen decorativa')
+      img(src='@/assets/curso/temas/t5/img33.png', alt='')
     p.mb-4(data-aos="fade-down") La adopción de estas prácticas permite reducir errores, mejorar la trazabilidad de los cambios y facilitar la integración del trabajo realizado por los diferentes integrantes del equipo de desarrollo.
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
@@ -496,13 +496,13 @@
           .row.mb-3
             .col-lg-2.d-none.d-lg-block
               figure
-                img(src='@/assets/curso/temas/t5/img35.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t5/img35.svg', alt='')
             .col-lg-10.col-12
               h4.mb-0(data-aos="fade-down") Ejemplo de aplicación
           p.mb-0(data-aos="fade-down") Un equipo de desarrollo implementa una nueva funcionalidad para una aplicación <em>web</em>. Cada desarrollador trabaja en una rama independiente, registra sus cambios mediante <em>commits</em> con mensajes descriptivos y sincroniza periódicamente su repositorio local con el repositorio remoto. Antes de integrar la funcionalidad al proyecto principal, el equipo revisa el código para verificar su correcto funcionamiento y garantizar que cumple con los estándares definidos para el proyecto.
       .col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/temas/t5/img34.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t5/img34.jpg', alt='')
     p.mb-4(data-aos="fade-down") Este ejemplo permite identificar que la aplicación de buenas prácticas facilita la colaboración entre los integrantes del equipo, mejora la organización del código fuente y contribuye al desarrollo de aplicaciones más confiables.
     .row.justify-content-center.mb-0
       .col.col-12

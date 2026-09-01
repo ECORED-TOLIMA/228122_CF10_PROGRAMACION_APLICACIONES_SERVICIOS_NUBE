@@ -22,7 +22,7 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión de los principales conceptos relacionados con el enfoque DevOps y su aplicación en los procesos de desarrollo de <em>software</em>.',
+        '<b> Objetivo:</b> evaluar la comprensión de los principales conceptos relacionados con el enfoque DevOps y su aplicación en los procesos de desarrollo de <em>software</em>.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',

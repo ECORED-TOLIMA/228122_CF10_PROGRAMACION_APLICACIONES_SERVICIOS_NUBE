@@ -16,7 +16,7 @@
     .row.align-items-center.mb-0
       .col-lg-1.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/t3/img02.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t3/img02.svg', alt='')
       .col-lg-11.col-12
         .cajon.cajon.C08.color-primario.px-4.py-1.mb-0
           p.mb-0(data-aos="fade-down") En el enfoque DevOps, los contenedores favorecen la automatización de los procesos de desarrollo y despliegue, simplifican la administración de las aplicaciones y contribuyen a la integración continua y la entrega continua del <em>software</em>. Su utilización también facilita la colaboración entre los equipos de desarrollo y operaciones, al proporcionar entornos consistentes para la construcción, validación e implementación de las soluciones.
@@ -48,7 +48,7 @@
               p.mb-0 Su creación y puesta en funcionamiento requieren menos tiempo, lo que favorece la automatización de los procesos de desarrollo y despliegue.
       .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/t3/img03.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t3/img03.jpg', alt='')
     p.mb-0(data-aos="fade-down") Estas características hacen que los contenedores sean una alternativa eficiente para el desarrollo de aplicaciones modernas, especialmente en entornos donde se requiere automatizar procesos, optimizar recursos y garantizar la estabilidad de las aplicaciones durante todo su ciclo de vida.
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -145,13 +145,13 @@
           .row.mb-3
             .col-lg-2.d-none.d-lg-block
               figure
-                img(src='@/assets/curso/temas/t3/img11.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t3/img11.svg', alt='')
             .col-lg-10.col-12
               h4.mb-0(data-aos="fade-down") Ejemplo de aplicación de contenedores en DevOps
           p.mb-0(data-aos="fade-down") Durante el desarrollo de una aplicación <em>web</em>, cada integrante del equipo utiliza un contenedor con la misma configuración del proyecto. Cuando un desarrollador incorpora cambios al código fuente, el sistema inicia un proceso automatizado que construye una nueva versión de la aplicación, ejecuta las pruebas correspondientes y prepara el despliegue en el entorno definido. Este procedimiento reduce errores asociados a diferencias entre entornos y favorece la entrega continua de nuevas versiones del <em>software</em>.
       .col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/temas/t3/img10.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t3/img10.jpg', alt='')
     p.mb-0(data-aos="fade-down") La utilización de contenedores en DevOps fortalece la automatización de los procesos, mejora la colaboración entre los equipos y facilita la entrega de aplicaciones más estables, consistentes y adaptables a las necesidades de las organizaciones.
     separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -160,7 +160,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/t3/img12.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t3/img12.svg', alt='')
       .col.col-lg-9.col-12.order-lg-2.order-2
         .cajon.cajon.C03.px-4.py-1
           p.mb-0(data-aos="fade-down") Para crear una imagen de un contenedor se utiliza un archivo denominado Dockerfile, el cual contiene las instrucciones necesarias para preparar el entorno donde se ejecutará la aplicación.
@@ -184,7 +184,7 @@
     .row.bg03.justify-content-center.align-items-center.px-3.mb-4
       .col.col-lg-3.col-6.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t3/img13.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t3/img13.svg', alt='')
       .col.col-lg-6.col-12.order-lg-1.order-2
         .tarjeta.tarjeta--blanca.p-4
           p.text-bold.mb-4 En este ejemplo:
@@ -207,6 +207,7 @@
             li
               i.fas.fa-cloud-arrow-down
               p.mb-0 <b>CMD</b> define el comando que se ejecutará al iniciar el contenedor.
+    p.mb-4(data-aos="fade-down") Los comandos de Docker permiten gestionar el ciclo de vida de los contenedores durante el desarrollo y la implementación de aplicaciones. A continuación, se presentan algunos de los comandos básicos utilizados en entornos DevOps.
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
         .titulo-sexto.color-acento-contenido

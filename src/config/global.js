@@ -277,7 +277,7 @@ export default {
     {
       termino: 'CI/CD',
       significado:
-        'conjunto de prácticas que integran la integración continua (<em>Continuous Integration</em>), la entrega continua (<em>Continuous Delivery</em>) y el despliegue continuo (<em>Continuous Deployment</em>) para automatizar el desarrollo y la distribución de <em>software</em>.',
+        'conjunto de prácticas que integran la integración continua (Continuous Integration), la entrega continua (Continuous Delivery) y el despliegue continuo (Continuous Deployment) para automatizar el desarrollo y la distribución de software.',
     },
     {
       termino: 'Contenedor',
@@ -285,7 +285,7 @@ export default {
         'tecnología que permite empaquetar una aplicación junto con sus dependencias y configuraciones para ejecutarla de forma consistente en diferentes entornos.',
     },
     {
-      termino: 'Despliegue continuo (<em>Continuous Deployment</em>)',
+      termino: 'Despliegue continuo (Continuous Deployment)',
       significado:
         'práctica que automatiza la publicación de nuevas versiones del <em>software</em> en un entorno de ejecución una vez superadas las validaciones establecidas.',
     },
@@ -305,7 +305,7 @@ export default {
         'estrategia de ramificación para Git que organiza el desarrollo de <em>software</em> mediante ramas destinadas al desarrollo de funcionalidades, preparación de versiones y corrección de errores.',
     },
     {
-      termino: 'Integración continua (<em>Continuous Integration</em>)',
+      termino: 'Integración continua (Continuous Integration)',
       significado:
         'práctica que consiste en incorporar de forma frecuente los cambios realizados al código fuente y validarlos mediante procesos automatizados de construcción y pruebas.',
     },
